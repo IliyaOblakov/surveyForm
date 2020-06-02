@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+    <link href="https://fonts.googleapis.com/css2?family=Pangolin&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="styles.css">
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>My Survey Form</title>
+
+</head>
+
+<body>
+ 
+    <p id="description">Learn To Code Survey Form</p>
+
+    <h1 id="title">Please take the survey to let me know how is your jurney to a succsessful web developer! </h1>
+
+ <form id="survey-form">
+      
+    <div id="inputs">
+
+        <label id="name-label" for="name">Name:</label>
+
+        <input id="name" type="text" required placeholder=" eg.Jhon Smith">
+
+        <label id="number-label" for="number">Age:</label>
+
+        <input id="number" type="number" min="15" max="65" placeholder="Please enter your age!">
+
+        <label id="email-label"  for="email">Email:</label>
+
+        <input id="email" type="email" required placeholder="please provide your Email Address!">
+
+     </div> 
+
+
+
+     <p style="font-size: 25px; color:brown; margin-top: 230px;">Why you started to learn programing?</p>
+
+     
+
+      <div class="selectMenu">
+        <label id="reasonsLabel" for="reasons">Choose one:</label>
+          <select id="dropdown">
+              <option value="creativity">It gives me the power to create.</option>
+              <option value="change">To change my carier.</option>
+              <option value="help">To help myself in my current job.</option>
+              <option value="explore">Just to explore the tech industry.</option>
+          </select>
+        
+      </div>
+
+      <hr>
+      <hr>
+
+      <p style="font-size: 25px; color:brown;">Wold you recommend programing to a friend?</p>
+
+
+    <input class="radio" type="radio" id="yes" name="recomendation" value="100%">
+
+     <label class="radio" for="yes">100%</label><br>
+
+     <input class="radio" type="radio" id="cant" name="recomendation" value="cant">
+
+      <label class="radio" for="cant">I can't say yet.</label><br>
+
+      <input class="radio" type="radio" id="no" name="recomendation" value="no">
+
+      <label class="radio" for="no">I will definitely not!</label>
+
+      <hr>
+      <hr>
+
+      <p style="font-size: 25px; color:brown;">What is your favourite programing language?</p>
+
+      <div class="selectMenu">
+        <label id="languagesLabel" for="reasons">Choose one:</label>
+          <select id="reasons">
+              <option value="html">HTML</option>
+              <option value="css">CSS</option>
+              <option value="javaScript">javaScript</option>
+              <option value="c">C</option>
+              <option value="pyton">Pyton</option>
+              
+          </select>
+        
+      </div>
+
+      <hr>
+      <hr>  
+
+      <p style="font-size: 25px; color:brown;">Check your favourite time to code!</p>
+
+            <input type="checkbox" id="morning" name="morning" value="earlyMorning">
+            <label class="radio" for="morning">Early morning.</label><br>
+            
+            <input type="checkbox" id="noon" name="noon" value="atNoon">
+            <label class="radio" for="noon"> At Noon.</label><br>
+           
+            <input type="checkbox" id="evening" name="evening" value="atEvening">
+            <label class="radio" for="evening"> At the evening.</label><br>
+
+            <hr>
+            <hr>
+
+            <p style="font-size: 25px; color:brown;">If i am missing something, please coment in the field below:</p>
+
+         <textarea placeholder="Please add your coments here!" name="coment" id="coments" cols="70" rows="100"></textarea>
+
+        <hr>
+        <hr>
+        <button id="submit" type="submit">SUBMIT!</button>
+
+ </form>
+
+</body>
+
+</html>

@@ -1,0 +1,227 @@
+
+body{
+
+    text-align: center;
+    background-color: brown;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    font-family: 'Pangolin', cursive;
+    font-weight: 400;
+    line-height: 1.4;
+
+  }
+  
+
+h1{
+
+    color: burlywood;
+
+}
+
+#description{
+
+    color: burlywood;
+    font-size: 1.5em;
+
+}
+
+#survey-form{
+
+    background-color: burlywood;
+    margin: 0 auto;
+    max-width: 850px;
+    max-height: 1400px;
+    border-radius: 25px;
+    opacity: 0.8;
+
+}
+
+#survey-form:hover{
+    opacity: 1;
+}
+
+#inputs {
+
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    height: 100px;
+    width: 47%;
+    justify-content: center;
+    text-align: center;
+}
+
+
+#number {
+   
+   width: 20vw;
+    margin-left: 212.5px;
+    border-radius: 7px;
+
+}
+
+#name {
+    margin-left: 212.5px;
+    width: 20vw;
+    border-radius: 7px;
+    flex-direction: column;
+
+}
+
+#name-label {
+
+    font-size: 23px;
+    margin-top: 150px;
+    color: brown;
+    margin-left: 95px;
+}
+
+#number-label {
+
+    font-size: 23px;
+    color: brown;
+    margin-left: 75px;
+    margin-top: 20px;
+
+}
+
+#email {
+
+    margin-left: 212.5px; 
+    width: 20vw;
+    border-radius: 7px;
+    height: 25px;
+
+}
+
+#email-label {
+
+    
+    font-size: 23px;
+    color: brown;
+    margin-left: 90px;
+    margin-top: 20px;
+}
+ 
+#dropdown {
+ 
+    width: 425px;
+    border-radius: 7px;
+    height: 25px;
+    margin-bottom: 50px;
+
+
+}
+
+#languagesLabel {
+    display: flex;
+    font-size: 23px;
+    color: brown;
+    margin-left: 210px;
+    margin-top: 50px;
+
+}
+
+.radio {
+
+font-size: 23px;
+display:inline-flex;
+flex-direction: row;
+color: brown;
+margin-left: 50px;
+
+
+}
+
+#cant {
+
+    margin-left:-198px;
+
+}
+
+#yes{
+
+    margin-left: -277px;
+
+}
+
+#no {
+
+    margin-left:-150px;
+}
+#title{
+
+font-size: 30px; 
+color:burlywood;
+}
+
+#morning {
+    margin-left: -160px;
+
+}
+
+#noon{
+
+    margin-left: -214px;
+}
+
+#evening {
+
+    margin-left: -157px;
+
+}
+#coments{
+
+    height: 20px;
+}
+
+#submit {    
+
+    margin-top: 30px;
+    height: 40px;
+    width: 100px;
+    background-color: brown;
+    border-radius: 8px;
+    margin-bottom: 100px;
+}
+
+#submit:hover{
+
+    animation-name: submition;
+    animation-duration: 4s;
+    animation-iteration-count: 3;
+
+}
+
+@keyframes submition {
+    from {background-color: brown;}
+    to {background-color: rgb(68, 0, 255);}
+  }
+  #languagesLabel {
+
+    display: flex;
+    font-size: 23px;
+    color: brown;
+    margin-left: 210px;
+    margin-top: 50px;
+
+
+  }
+
+  #languages {
+    width: 425px;
+    border-radius: 7px;
+    height: 25px;
+    margin-bottom: 50px;
+  }
+  #reasonsLabel {
+
+    display: flex;
+    font-size: 23px;
+    color: brown;
+    margin-left: 210px;
+    margin-top: 50px;
+
+
+  }
